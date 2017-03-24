@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvEditUsername"
+        android:text="用户名"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:id="@+id/tvEditSignature"
+        android:text="个性签名"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <EditText
+        android:id="@+id/etSignature"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+</LinearLayout>
